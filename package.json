@@ -1,0 +1,13 @@
+{
+  "name": "moonfo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix moonfo-youtube-backend && npm install --prefix moonfo-youtube && npm run build --prefix moonfo-youtube",
+    "start":" npm run start --prefix moonfo-youtube-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
